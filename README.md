@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# 🍕 React Pizza v2 (REMASTERED) 🍕
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Это обновлённый курс на 2022 год, одного из [самых популярных курсов](https://www.youtube.com/watch?v=bziVFvq8cLQ&list=PL0FGkDGJQjJFMRmP7wZ771m1Nx-m2_qXq) по ReactJS для начинающих.
 
-## Available Scripts
+В данном курсе подробно раскрывается тема создания фронтенд части интернет-магазина пиццерии на всех нижеперечисленных технологиях.
 
-In the project directory, you can run:
+Я собрал все самые **топовые** и **актуальные** темы по фронтенду + React на 2022 год, которые тебе пригодятся для **трудоустройства** или же разработки приложений на заказ.
 
-### `npm start`
+Обновлённый курс идеально подойдёт как для начинающих разработчиков (junior), так и для pre-middle/middle.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔥 Ты научишься:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Разрабатывать полноценное фронтенд-приложение на ReactJS.
+- Создавать компоненты, страницы, сортировку, поиск, пагинацию, фильтрацию, popup-окна и т.д.
+- Взаимодействовать с серверной частью, отправлять запросы на бэкенд.
+- Разрабатывать навигацию по странице без перезагрузки.
+- Создавать глобальное хранилище данных для всего приложения.
+- Писать строго типизированный код на TypeScript.
+- Работать с LocalStorage для хранения настроек сайта.
+- Lazy Loading (ленивую подгрузку) + debounce (оптимизацию для поиска пицц).
+- Оптимизировать перерисовки/ререндеры компонентов, code splitting (разделение кода на отдельные JS-файлы), что такое tree shaking и как сокращать импорты компонентов.
+- Делать адаптивную вёрстку.
+- Деплоить приложение в интернет
+- и т.д.
 
-### `npm test`
+# 🛠 Технологии:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **ReactJS 18**
+- **TypeScript**
+- **Redux Toolkit** (хранение данных / пицц)
+- **React Router v6** (навигация)
+- **Axios + Fetch** (отправка запроса на бэкенд)
+- **React Hooks** (хуки)
+- **Prettier** (форматирование кода)
+- CSS-Modules / SCSS (стилизация)
+- React Content Loader (скелетон)
+- React Pagination (пагинация)
+- Lodash.Debounce
+- Code Splitting, React Loadable, useWhyDidYouUpdate
 
-### `npm run build`
+### Подробнее о технологиях
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **[TypeScript](https://www.typescriptlang.org/) —** необходим для написания более грамотного JavaScript-кода. Благодаря правильному написанию TS-кода, мы автоматически документируем наш код + наше приложение будет содержать меньше багов из-за строгой типизации.
+- **[Redux Toolkit](https://redux-toolkit.js.org/)** — с помощью данной библиотеки, мы сможем создать глобальное хранилище данных для нашего приложения, тем самым, более удобным способом обмениваться информацией между разными компонентами нашего приложения. Данная библиотека активно внедряется во все крупные и малые react-проекты на 2021-2022 г.
+- **[React Router v6](https://reactrouter.com/docs/en/v6/getting-started/overview)** — позволит нам создать навигацию по нашему сайту без перезагрузок страницы. Ты, наверное, обратил внимание, что сайт VK или Instagram при переходе по разным разделам, не перезагружает всю страницу, а только определенную часть сайта. Именно эту возможность мы и будем внедрять в наше приложение с помощью React Router.
+- **[Axios](https://github.com/axios/axios)** — нам поможет взаимодействовать с серверной частью. Отправлять данные на сервер или получать их при необходимости из сервера уже в наше фронтенд-приложение.
+- **[React Hooks](https://ru.reactjs.org/docs/hooks-intro.html)** — это набор готовых функций внутри библиотеки React для решения разнообразных задач, например, хранение данных, определение первого отображения приложения, оптимизаций функций и т.п.
+- **[Prettier](https://prettier.io/)** — наш код должен быть не только хорошо написано, но и **красиво**. С помощью Prettier наш код будет автоматически выровняться внутри нашего редактора кода, тем самым, становиться более читабельным.
+- **[SCSS](https://sass-scss.ru/)** — это тот же CSS, но с более мощными возможностями, функциями, переменными, циклами (да, Карл, циклы в CSS) и кучей других крутых решений.
+- **[CSS-Modules](https://github.com/css-modules/css-modules)** — мы будем использовать SCSS вместе с CSS-модулями. По факту, тебе не придётся учить ничего нового. Ты будешь писать те же самые стили, но уже в отдельных файлах (css-модулях), тем самым, инкапсулируя свои CSS-классы.
+- **[Lodash](https://lodash.com/docs)** — набор готовых JS-функций для огромного количества разнообразных задач.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 👀 С чего начать?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Установить редактор кода **[Visual Studio Code](https://code.visualstudio.com/)**
+2. Установить [NodeJS](https://nodejs.org/en/)
+3. Установить [Create React App](https://create-react-app.dev/) **\* (см. видео)**
+4. Скачать репозиторий с вёрсткой https://github.com/Archakov06/react-pizza-html
+5. Начать разработку
 
-### `npm run eject`
+# 🗄Материалы
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[pizzas.json](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/36ad4e93-800e-451b-9831-ae6abe1b28ef/pizzas.json)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> 💡 Если каких-то ссылок или материалов не будет хватать в этой странице, пишите в комментариях к видео, чтобы я обновил информацию.
