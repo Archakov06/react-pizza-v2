@@ -51,31 +51,31 @@ const Home: React.FC = () => {
 
   // Если изменили параметры и был первый рендер
   React.useEffect(() => {
-    if (isMounted.current) {
-      const params = {
-        categoryId: categoryId > 0 ? categoryId : null,
-        sortProperty: sort.sortProperty,
-        currentPage,
-      };
+    // if (isMounted.current) {
+    //   const params = {
+    //     categoryId: categoryId > 0 ? categoryId : null,
+    //     sortProperty: sort.sortProperty,
+    //     currentPage,
+    //   };
 
-      const queryString = qs.stringify(params, { skipNulls: true });
+    //   const queryString = qs.stringify(params, { skipNulls: true });
 
-      navigate(`/?${queryString}`);
-    }
+    //   navigate(`/?${queryString}`);
+    // }
 
-    const params = qs.parse(window.location.search.substring(1)) as unknown as SearchPizzaParams;
-    const sortObj = sortList.find((obj) => obj.sortProperty === params.sortBy);
-    dispatch(
-      setFilters({
-        searchValue: params.search,
-        categoryId: Number(params.category),
-        currentPage: Number(params.currentPage),
-        sort: sortObj || sortList[0],
-      }),
-    );
+    // const params = qs.parse(window.location.search.substring(1)) as unknown as SearchPizzaParams;
+    // const sortObj = sortList.find((obj) => obj.sortProperty === params.sortBy);
+    // dispatch(
+    //   setFilters({
+    //     searchValue: params.search,
+    //     categoryId: Number(params.category),
+    //     currentPage: Number(params.currentPage),
+    //     sort: sortObj || sortList[0],
+    //   }),
+    // );
 
     getPizzas();
-    isMounted.current = true;
+    // isMounted.current = true;
   }, [categoryId, sort.sortProperty, searchValue, currentPage]);
 
   // Парсим параметры при первом рендере
