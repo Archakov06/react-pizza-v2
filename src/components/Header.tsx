@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
               alt="Pizza logo"
             />
             <div>
-              <h1>Pizza</h1>
+              <h1>Просто Пицца</h1>
               <p>самая вкусная пицца во вселенной</p>
             </div>
           </div>
